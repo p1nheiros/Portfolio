@@ -17,7 +17,7 @@
 
 <br />
 
-![portfolio](https://github.com/p1nheiros/Portfolio/assets/124714182/960ccec4-1e20-46de-b844-90e7ecc22569)
+![portfolio](https://github.com/p1nheiros/Portfolio/assets/124714182/582180fb-932c-4321-9a62-94092e09bdd2)
 
 ### 📋 Pré-requisitos
 
