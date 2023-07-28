@@ -8,21 +8,21 @@ const data = [
   {
     id: 1,
     image: Image1,
-    title: "UI/UX design",
+    title: "Web Design",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Cria interfaces visuais atraentes e funcionais para sites e aplicativos, melhorando a experiência do usuário, fortalecendo a marca, aumentando a acessibilidade, otimizando para mecanismos de busca.",
   },
   {
     id: 2,
     image: Image2,
-    title: "Web Development",
+    title: "Desenvolvimento Web",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Oferece benefícios como acesso global, custo acessível, interatividade, marketing digital e escalabilidade. Possibilita a criação de sites e aplicativos acessíveis em diversos dispositivos, impulsionando a presença online e visibilidade.",
   },
   {
     id: 3,
     image: Image3,
-    title: "Photography",
+    title: "UI/UX design",
     description:
       "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
   },
@@ -31,13 +31,13 @@ const data = [
 const Services = () => {
   return (
     <section className="services container section" id='services'>
-      <h2 className="section__title">Services</h2>
+      <h2 className="section__title">Serviços</h2>
 
-      <div className="services__conteiner grid">
-        {data.map(({ id, images, title, description }) => {
+      <div className="services__container grid">
+        {data.map(({ id, image, title, description }) => {
           return (
             <div className="services__card" key={id}>
-              <img src={images} alt="" className="services__img" />
+              <img src={image} alt="" className="services__img" />
 
               <h3 className="services__title">{title}</h3>
               <p className="services__description">{description}</p>

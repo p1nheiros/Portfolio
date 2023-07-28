@@ -52,6 +52,10 @@
     color: hsl(270, 100%, 40%);
 }
 
+.home__scroll-name:active {
+    color: rgb(108, 108, 229);
+  }  
+
 .mouse {
     border: 2px solid #454360;
     display: block;

@@ -2,12 +2,13 @@ import React from 'react'
 import "./home.css"
 import HeaderSocials from './HeaderSocials'
 import ScrollDown from './ScrollDown'
+import Image from '../../assets/avatar-1.svg';
 
 const home = () => {
   return (
     <selection className="home container" id="home">
       <div className="intro">
-        <img src="../../assets/avatar-1.svg" alt="avatar" className="home__img" />
+        <img src={Image} alt="avatar" className="home__img" />
         <h1 className="home__name">Lucas Pinheiro</h1>
         <span className="home__education">Desenvolvedor Front-End e React</span>
 
