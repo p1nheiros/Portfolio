@@ -1,3 +1,7 @@
+aside {
+    user-select: none;    
+}
+
 .aside {
     position: fixed;
     left: 0;
@@ -12,6 +16,12 @@
     flex-direction: column;
     justify-content: space-between;
     z-index: 10;
+    transition: .3s;
+}
+
+.nav__logo {
+    width: 40px;
+    height: 50px;
 }
 
 .nav__list {
@@ -28,7 +38,7 @@
 }
 
 .nav__link:hover {
-    color: hsl(43, 100%, 68%);
+    color: #6c6ce5;
 }
 
 .copyright {
@@ -36,4 +46,39 @@
     font-size: var(--small-font-size);
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
+}
+
+.nav__toggle {
+    position: fixed;
+    top: 1.25rem;
+    left: 1.875rem;
+    cursor: pointer;
+    height: 40px;
+    width: 45px;
+    background-color: var(--body-color);
+    font-size: var(--h2-font-size);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: .3s;
+    border-radius: var(--border-radius);
+}
+
+@media screen and (max-width: 1024px) {
+    .aside {
+        left: -110px;
+    }
+
+    .nav__toggle {
+        display: flex;
+    }
+
+    .nav__toggle-open {
+        left: 140px;
+    }
+
+    .show-menu {
+        left: 0;
+    }
 }

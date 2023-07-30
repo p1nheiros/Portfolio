@@ -2,14 +2,12 @@ import React from 'react';
 import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/inicio/Home';
-import About from './components/sobre/About';
-import Services from './components/servicos/Services';
-import Resume from './components/experiencia/Resume';
-import Portfolio from './components/portfolio/Portfolio';
-import Pricing from './components/preco/Pricing';
-import Testimonials from './components/testemunhas/Testimonials';
-import Blog from './components/blog/Blog';
-import Contact from './components/contato/Contact';
+import Sobre from './components/sobre/Sobre';
+import Skills from './components/habilidades/Skills';
+import Servicos from './components/servicos/Servicos';
+import Portfolio from './components/portfolios/Portfolio';
+import Qualificacao from './components/qualificacao/Qualificacao';
+import Contato from './components/contato/Contato';
 
 function App() {
   return (
@@ -17,14 +15,12 @@ function App() {
       <Sidebar />
       <main className='main'>
         <Home />
-        <About />
-        <Services />
-        <Resume />
+        <Sobre />
+        <Skills />
+        <Servicos />
         <Portfolio />
-        <Pricing />
-        <Testimonials />
-        <Blog />
-        <Contact />
+        <Qualificacao />
+        <Contato />
       </main>
     </>
   );

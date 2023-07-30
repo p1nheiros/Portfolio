@@ -1,0 +1,119 @@
+#skills {
+    user-select: none;
+}
+
+.skills__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.875rem;
+}
+
+.skills__title {
+    padding-bottom: 1.5rem;
+    font-size: var(--h2-font-size);
+    text-align: center;
+}
+
+.line {
+    background-color: var(--container-color);
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    position: relative;
+    box-shadow: var(--shadow);
+}
+
+.line__item {
+    position: relative;
+    padding-left: 2rem;
+    padding-bottom: 1.8rem;
+    left: 29%;
+}
+
+.line__item:last-child {
+    padding-bottom: 0;
+}
+
+.line__item::before {
+    content: '';
+    width: 0;
+    height: 100%;
+    background-color: rgb(140, 108, 229);
+    position: absolute;
+    left: .25rem;
+    top: 0;
+}
+
+.line .uil-check-circle,
+.line .uil-check-circle {
+    position: absolute;
+    left: -0.8375rem;
+    top: 0;
+    font-size: var(--h2-font-size);
+    color: rgb(108, 108, 229);
+    background-color: var(--container-color);
+    padding: 0.4375rem 0;
+}
+
+.line__desc {
+    color: #8b88b1;
+    font-size: var(--small-font-size);
+    user-select: none;
+}
+
+.line__title {
+    font-size: var(--h3-font-size);
+    margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .skills__container {
+        grid-template-columns: 450px;
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+
+    .line__item {
+        left: 1;
+        padding-left: 0rem;
+    }
+
+    .line__item::before {
+        left: 2px;
+    }
+
+    .line .uil-check-circle,
+    .line .uil-check-circle {
+        left: -2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skills__container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .skills__container {
+        grid-template-columns: 210px;
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+
+    .line__item {
+        padding-left: 1.875rem;
+        padding-bottom: 1.875rem;
+    }
+
+    .line .uil-check-circle,
+    .line .uil-check-circle {
+        left: -2rem;
+    }
+
+    .line__text {
+        text-align: justify;
+    }
+
+    .line__item {
+        padding-left: 0rem;
+    }
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import "./home.css"
 import HeaderSocials from './HeaderSocials'
 import ScrollDown from './ScrollDown'
-import Image from '../../assets/avatar-1.svg';
+import Image from '../../assets/foto-avatar-2.svg';
 
 const home = () => {
   return (
@@ -14,7 +14,7 @@ const home = () => {
 
         <HeaderSocials />
 
-        <a href="#contact" className="btn">Contrate-Me</a>
+        <a href="#contact" className="btn">Contate-Me</a>
 
         <ScrollDown />
       </div>
