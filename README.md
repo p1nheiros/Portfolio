@@ -1,23 +1,24 @@
 <div align="center">
   
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pinheiros.dev@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lucas-p-5b1585265)
   [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@PinheirosDev)
   [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/p1nheiros)
 
   <br />
   <br />
 
-  <h2 align="center">Pinheiros - Portfolio Website</h2>
+  <h1 align="center">Portfolio Pessoal Website</h1>
 
-  Um site de portfólio pessoal totalmente responsivo para todos os dispositivos, construído usando React JS.
+  Wesite de portfólio pessoal totalmente responsivo para todos os dispositivos, construído usando React JS.
 
-  <a href="https://github.com/p1nheiros/Portfolio"><strong>➥ Visualizar Portfólio</strong></a>
+  <a href="https://portfolio-lucas-pinheiro.vercel.app/"><strong>➥ Visualizar Portfólio</strong></a>
 
 </div>
 
 <br />
 
-![portfolio](https://github.com/p1nheiros/Portfolio/assets/124714182/582180fb-932c-4321-9a62-94092e09bdd2)
+![portfolio-banner-rep](https://github.com/p1nheiros/Portfolio/assets/124714182/a4101ff3-4906-47ec-a86a-0c3897c734fb)
 
 ### 📋 Pré-requisitos
 
