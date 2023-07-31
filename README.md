@@ -44,9 +44,24 @@ git clone https://github.com/p1nheiros/Portfolio.git
 
 
 
+### 👨‍💻 Desenvolvedor
+
+<table>
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/124714182?v=4" width="100px;" alt="Lucas Pinheiro"/><br>
+        <sub>
+          <b>Lucas Pinheiro</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ### ☎️ Contato
 
-Se você quiser entrar em contato comigo, pode me encontrar no [Gmail](mailto:pinheiros.dev@gmail.com).
+Se você quiserentrar em contato comigo, pode me encontrar no [Gmail](mailto:pinheiros.dev@gmail.com).
 
 ### 📝 Licença
 
