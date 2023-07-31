@@ -23,12 +23,15 @@ const Qualificacao = () => {
                 />
               )
             }
+            return null;
           })}
         </div>
 
         <div className="timeline grid">
           {Data.map((val, index) => {
             if (val.category === "experience") {
+              const showDesc2AndDesc3 = val.id === 11 || val.id === 12;
+
               return (
                 <Card
                   key={index}
@@ -36,9 +39,12 @@ const Qualificacao = () => {
                   title={val.title}
                   year={val.year}
                   desc={val.desc}
+                  desc2={showDesc2AndDesc3 ? val.desc2 : undefined}
+                  desc3={showDesc2AndDesc3 ? val.desc3 : undefined}
                 />
               )
             }
+            return null;
           })}
         </div>
 
@@ -47,4 +53,4 @@ const Qualificacao = () => {
   )
 }
 
-export default Qualificacao
+export default Qualificacao;

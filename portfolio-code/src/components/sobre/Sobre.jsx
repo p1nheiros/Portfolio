@@ -15,8 +15,7 @@ const Sobre = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              Sou Engenheiro de Software, desenvolvedor Front-End e React, atualmente apriomoriando para FullStack, realizo projetos como websites e softwares tendo clientes como ONGs, freelances, prefeituras e estabelecimentos.
-            </p>
+              Estudante de engenharia de software e desenvolvedor Front-End / React, atualmente apriomoriando para FullStack. Possuo um arsenal de habilidades para desenvolver projetos e garanto uma experiência única para o usuário. </p>
             <a href={CV_Lucas_Pinheiro} className="btn" download>Download CV</a>
           </div>
 

@@ -18,8 +18,8 @@ const data = [
     id: 3,
     title: "UX Design",
     description:
-"Mmelhor usabilidade, maior satisfação do cliente, redução de custos, maior retenção de usuários, diferenciação no mercado, acessibilidade, aumento da eficiência, análise de dados e melhorias contínuas no produto."
-    },
+      "Melhor usabilidade, maior satisfação do cliente, redução de custos, maior retenção de usuários, diferenciação no mercado, acessibilidade, aumento da eficiência, análise de dados e melhorias contínuas no produto."
+  },
 ];
 
 const Servicos = () => {

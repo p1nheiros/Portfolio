@@ -4,7 +4,7 @@ const Data = [
       id: 1,
       category: "front",
       icon: "uil-check-circle",
-      title: "HTML & CSS",
+      title: "HTML, CSS e JS",
       desc: "Avançado",
     },
     {
@@ -12,20 +12,20 @@ const Data = [
       category: "front",
       icon: "uil-check-circle",
       title: "React",
-      desc: "Avançado",
+      desc: "Intermediário",
     },
     {
       id: 3,
       category: "front",
       icon: "uil-check-circle",
-      title: "Tailwind",
+      title: "TypeScript",
       desc: "Intermediário",
     },
     {
       id: 11,
       category: "back",
       icon: "uil-check-circle",
-      title: "Python",
+      title: "Java",
       desc: "Iniciante",      
     },
     {
@@ -39,7 +39,7 @@ const Data = [
       id: 13,
       category: "back",
       icon: "uil-check-circle",
-      title: "MySQL",
+      title: "PHP",
       desc: "Iniciante",
     },
     
