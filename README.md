@@ -10,7 +10,7 @@
 
   <h1 align="center">Portfolio Pessoal Website</h1>
 
-  Wesite de portfólio pessoal totalmente responsivo para todos os dispositivos, construído usando React JS.
+  > Wesite de portfólio pessoal totalmente responsivo para todos os dispositivos, construído usando React JS.
 
   <a href="https://portfolio-lucas-pinheiro.vercel.app/"><strong>➥ Visualizar Portfólio</strong></a>
 
