@@ -6,7 +6,7 @@ const Card = (props) => {
       <i className={props.icon}></i>
       <span className="timeline__date">{props.year}</span>
       <h3 className="timeline__title">{props.title}</h3>
-      <li className="timeline__text">{props.desc}</li>
+      <div className="timeline__text">{props.desc}</div>
       {props.desc2 && <li className="timeline__text">{props.desc2}</li>}
       {props.desc3 && <li className="timeline__text">{props.desc3}</li>}
     </div>

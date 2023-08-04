@@ -30,7 +30,7 @@ const Qualificacao = () => {
         <div className="timeline grid">
           {Data.map((val, index) => {
             if (val.category === "experience") {
-              const showDesc2AndDesc3 = val.id === 11 || val.id === 12;
+              const showDesc2AndDesc3 = val.id === 12;
 
               return (
                 <Card

@@ -39,7 +39,7 @@ const Data = [
       id: 13,
       category: "back",
       icon: "uil-check-circle",
-      title: "PHP",
+      title: "Laravel",
       desc: "Iniciante",
     },
     
