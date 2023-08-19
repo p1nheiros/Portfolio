@@ -1,6 +1,6 @@
 import React from 'react';
 import "./sobre.css";
-import Image from "../../assets/foto-avatar-1.svg";
+import Image from "../../assets/foto-avatar-2.png";
 import AboutBox from './AboutBox';
 import CV_Lucas_Pinheiro from '../../assets/CV_Lucas_Pinheiro.pdf';
 

@@ -52,6 +52,7 @@ const Contato = () => {
                 className="contact__form-input"
                 placeholder='Insira seu nome'
                 value={nome}
+                required
                 onChange={(e) => setNome(e.target.value)}
               />
             </div>
@@ -62,6 +63,7 @@ const Contato = () => {
                 className="contact__form-input"
                 placeholder='Insira seu email'
                 value={email}
+                required
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
@@ -73,6 +75,7 @@ const Contato = () => {
               className="contact__form-input"
               placeholder='Insira o assunto'
               value={assunto}
+              required
               onChange={(e) => setAssunto(e.target.value)}
             />
           </div>
@@ -86,6 +89,7 @@ const Contato = () => {
               className='contact__form-input'
               placeholder='Escreva sua mensagem'
               value={mensagem}
+              required
               onChange={(e) => setMensagem(e.target.value)}
             ></textarea>
           </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import "./home.css"
 import HeaderSocials from './HeaderSocials'
 import ScrollDown from './ScrollDown'
-import Image from '../../assets/foto-avatar-2.svg';
+import Image from '../../assets/foto-avatar-3.png';
 
 const home = () => {
   return (
