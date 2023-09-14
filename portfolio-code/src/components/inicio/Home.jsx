@@ -10,7 +10,7 @@ const home = () => {
       <div className="intro">
         <img src={Image} alt="avatar" className="home__img" />
         <h1 className="home__name">Lucas Pinheiro</h1>
-        <span className="home__education">Desenvolvedor Front-End e React</span>
+        <span className="home__education">Engenheiro de Software e Desenvolvedor</span>
 
         <HeaderSocials />
 

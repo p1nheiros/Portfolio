@@ -6,7 +6,7 @@ const Data = [
     icon: "icon-graduation",
     year: "Ago, 2023 - Presente",
     title: "Programação e Tecnologia",
-    desc: "Alura Pro",
+    desc: "",
   },
   {
     id: 2,

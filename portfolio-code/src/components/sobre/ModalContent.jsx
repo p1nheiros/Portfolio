@@ -4,7 +4,7 @@ const ModalContent = ({ onClose }) => (
     <div className="modal-overlay">
         <div className="modal-container">
             <div className="modal-header">
-                <h3 className="modal-title">Hackathon</h3>
+                <h3 className="modal-title">Hackathons</h3>
                 <i className="fa-solid fa-xmark modal-close" onClick={onClose}></i>
             </div>
             <div className="modal-body">
@@ -24,6 +24,10 @@ const ModalContent = ({ onClose }) => (
                     <li className="modal-service">
                         <i className="uil uil-check-circle modal-icon"></i>
                         <p className="modal-info">HackaSun - 2023</p>
+                    </li>
+                    <li className="modal-service">
+                        <i className="uil uil-check-circle modal-icon"></i>
+                        <p className="modal-info">Hackathon HealthTech - 2023</p>
                     </li>
                 </ul>
             </div>

@@ -15,7 +15,7 @@ const Sobre = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              Estudante de Engenharia de Software com paixão pela área de FrontEnd e estou me capacitando para me tornar um profissional FullStack. Possuo um arsenal de habilidades para desenvolver projetos e meu foco é proporcionar uma experiência única ao usuário.
+              Estudante de Engenharia de Software com paixão pela área de desenvolvimento e estou me capacitando e disposto a novos aprendizados. Possuo um arsenal de habilidades para desenvolver projetos, proporcionar uma experiência única ao usuário e resolver problemas.
             </p>
             <a href={CV_Lucas_Pinheiro} className="btn" download>Download CV</a>
           </div>
@@ -23,8 +23,8 @@ const Sobre = () => {
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills_name">Front-End</h3>
-                <span className="skills__number">85%</span>
+                <h3 className="skills_name">Lógica</h3>
+                <span className="skills__number">90%</span>
               </div>
 
               <div className="skills__bar">
@@ -34,8 +34,8 @@ const Sobre = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills_name">React</h3>
-                <span className="skills__number">72%</span>
+                <h3 className="skills_name">Front-End</h3>
+                <span className="skills__number">52%</span>
               </div>
 
               <div className="skills__bar">
@@ -45,8 +45,8 @@ const Sobre = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills_name">UX Design</h3>
-                <span className="skills__number">50%</span>
+                <h3 className="skills_name">Back-End</h3>
+                <span className="skills__number">20%</span>
               </div>
 
               <div className="skills__bar">

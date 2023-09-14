@@ -1,8 +1,9 @@
 import React from 'react';
 import Png1 from '../../assets/Ideathon-Smart-Agro-2023.pdf';
 import Png2 from '../../assets/Hackathon-Smart-Agro-Expolondrina-2023.pdf';
-import Png3 from '../../assets/HackaSun-2023.pdf';
-import Png4 from '../../assets/Oficina-Design-Sprint-Ideathon-Smart-Agro.pdf'
+import Png3 from '../../assets/Oficina-Design-Sprint-Ideathon-Smart-Agro.pdf';
+import Png4 from '../../assets/HackaSun-2023.pdf';
+import Png5 from '../../assets/Hackathon-Health-Tech-2023.pdf';
 
 const CertificationsModal = ({ onClose }) => {
     const handleDownload = (pdfUrl) => {
@@ -38,11 +39,15 @@ const CertificationsModal = ({ onClose }) => {
                         </li>
                         <li className="modal-service" onClick={() => handleDownload(Png3)}>
                             <i className="fa-solid fa-download modal-icon"></i>
-                            <p className="modal-info">HackaSun 2023</p>
+                            <p className="modal-info">Oficina Design Sprint 2023</p>
                         </li>
                         <li className="modal-service" onClick={() => handleDownload(Png4)}>
                             <i className="fa-solid fa-download modal-icon"></i>
-                            <p className="modal-info">Oficina Design Sprint 2023</p>
+                            <p className="modal-info">HackaSun 2023</p>
+                        </li>
+                        <li className="modal-service" onClick={() => handleDownload(Png5)}>
+                            <i className="fa-solid fa-download modal-icon"></i>
+                            <p className="modal-info">Hackathon HealthTech 2023</p>
                         </li>
                     </ul>
                 </div>

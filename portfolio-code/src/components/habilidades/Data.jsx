@@ -26,20 +26,13 @@ const Data = [
       category: "back",
       icon: "uil-check-circle",
       title: "Java",
-      desc: "Iniciante",      
+      desc: "Básico",      
     },
     {
       id: 12,
       category: "back",
       icon: "uil-check-circle",
       title: "Node.js",
-      desc: "Iniciante",
-    },
-    {
-      id: 13,
-      category: "back",
-      icon: "uil-check-circle",
-      title: "Laravel",
       desc: "Iniciante",
     },
     
