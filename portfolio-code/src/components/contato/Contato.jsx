@@ -41,7 +41,7 @@ const Contato = () => {
       <div className="contact__container grid">
         <div className="contact__info">
           <h3 className="contact__title">Entre em contato comigo!</h3>
-          <p className="contact__details">Não gosta de formulários? <br /> Envie-me um e-mail.</p>
+          <p className="contact__details">Não gosta de formulários? <br /> Envie-me um e-mail. <br /> <a href="mailto:pinheiros.dev@gmail.com">pinheiros.dev@gmail.com</a></p>
         </div>
 
         <form onSubmit={handleSubmit} className="contact__form">
