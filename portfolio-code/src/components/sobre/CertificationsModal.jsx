@@ -4,6 +4,8 @@ import Png2 from '../../assets/Hackathon-Smart-Agro-Expolondrina-2023.pdf';
 import Png3 from '../../assets/Oficina-Design-Sprint-Ideathon-Smart-Agro.pdf';
 import Png4 from '../../assets/HackaSun-2023.pdf';
 import Png5 from '../../assets/Hackathon-Health-Tech-2023.pdf';
+import Png6 from '../../assets/INtech-Experience-2023.pdf';
+import Png7 from '../../assets/Desafio-Liga-Jovem-2024.pdf';
 
 const CertificationsModal = ({ onClose }) => {
     const handleDownload = (pdfUrl) => {
@@ -26,7 +28,7 @@ const CertificationsModal = ({ onClose }) => {
                 </div>
                 <div className="modal-body">
                     <p className="modal-description">
-                        Clique para baixar meus certificados de todos os Hackathons em que participei.
+                        Clique para baixar meus certificados de todos os Hackathons e certificações em que participei.
                     </p>
                     <ul className="modal-services">
                         <li className="modal-service" onClick={() => handleDownload(Png1)}>
@@ -48,6 +50,14 @@ const CertificationsModal = ({ onClose }) => {
                         <li className="modal-service" onClick={() => handleDownload(Png5)}>
                             <i className="fa-solid fa-download modal-icon"></i>
                             <p className="modal-info">Hackathon HealthTech 2023</p>
+                        </li>
+                        <li className="modal-service" onClick={() => handleDownload(Png6)}>
+                            <i className="fa-solid fa-download modal-icon"></i>
+                            <p className="modal-info">INtech Experience 2023</p>
+                        </li>
+                        <li className="modal-service" onClick={() => handleDownload(Png7)}>
+                            <i className="fa-solid fa-download modal-icon"></i>
+                            <p className="modal-info">Desafio Liga Jovem 2024</p>
                         </li>
                     </ul>
                 </div>

@@ -11,9 +11,9 @@ const Skills = () => {
       <div className="skills__container grid">
 
         <div className="line grid">
-          <h3 className="skills__title">Dev Front-End</h3>
+          <h3 className="skills__title">Linguagens</h3>
           {Data.map((val, id) => {
-            if (val.category === "front") {
+            if (val.category === "linguagem") {
               return (
                 <Card
                   key={id}
@@ -27,9 +27,41 @@ const Skills = () => {
         </div>
 
         <div className="line grid">
-          <h3 className="skills__title">Dev Back-End</h3>
+          <h3 className="skills__title">Banco de Dados</h3>
           {Data.map((val, id) => {
-            if (val.category === "back") {
+            if (val.category === "banco") {
+              return (
+                <Card
+                  key={id}
+                  icon={val.icon}
+                  title={val.title}
+                  desc={val.desc}
+                />
+              )
+            }
+          })}
+        </div>
+
+        <div className="line grid">
+          <h3 className="skills__title">Frameworks</h3>
+          {Data.map((val, id) => {
+            if (val.category === "framework") {
+              return (
+                <Card
+                  key={id}
+                  icon={val.icon}
+                  title={val.title}
+                  desc={val.desc}
+                />
+              )
+            }
+          })}
+        </div>
+
+        <div className="line grid">
+          <h3 className="skills__title">DevOps</h3>
+          {Data.map((val, id) => {
+            if (val.category === "devops") {
               return (
                 <Card
                   key={id}

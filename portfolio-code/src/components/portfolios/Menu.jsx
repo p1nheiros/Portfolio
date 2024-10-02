@@ -1,7 +1,8 @@
 import Banner from "../../assets/fundo-banner.png";
 import Banner1 from "../../assets/portfolio-pessoal-website-banner.png";
-import Banner2 from "../../assets/website-institucional-banner.png"
-import Banner3 from "../../assets/horta-solidaria-banner.png"
+import Banner2 from "../../assets/horta-solidaria-banner.png"
+
+import Banner4 from "../../assets/website-institucional-banner.png"
 
 import Banner11 from "../../assets/buscador-de-cep-banner.png";
 import Banner12 from "../../assets/calculadora-imc-banner.png";
@@ -22,18 +23,26 @@ const Menu = [
   {
     id: 2,
     image: Banner2,
+    title: "Horta Solidária",
+    category: "Projetos",
+    link: "https://horta-solidaria.netlify.app/",
+    linkGit: "https://github.com/p1nheiros/extensao-horta-solidaria",
+  },
+  {
+    id: 3,
+    image: Banner,
+    title: "Previsão de Safras",
+    category: "Projetos",
+    link: "https://previsao-de-safras.vercel.app",
+    linkGit: "https://github.com/p1nheiros/Previsao-de-Safras",
+  },
+  {
+    id: 4,
+    image: Banner4,
     title: "Projeto Ipen",
     category: "Projetos",
     link: "",
     linkGit: "https://github.com/p1nheiros/projetoIpen",
-  },
-  {
-    id: 3,
-    image: Banner3,
-    title: "Horta Solidária",
-    category: "Projetos",
-    link: "https://horta-solidaria.vercel.app",
-    linkGit: "https://github.com/junior-slv/horta-solidaria",
   },
   {
     id: 11,
@@ -58,6 +67,54 @@ const Menu = [
     category: "Práticas",
     link: "https://desafio-forms-registro.vercel.app",
     linkGit: "https://github.com/p1nheiros/Forms-Registro",
+  },
+  {
+    id: 14,
+    image: Banner,
+    title: "Calculadora Lógica",
+    category: "Práticas",
+    link: "https://calculadora-logica-web.vercel.app/",
+    linkGit: "https://github.com/p1nheiros/calculadora-logica",
+  },
+  {
+    id: 15,
+    image: Banner,
+    title: "Conversor de Tempo",
+    category: "Práticas",
+    link: "https://programa-de-pratica.vercel.app/",
+    linkGit: "https://github.com/p1nheiros/ConversorDeTempo",
+  },
+  {
+    id: 16,
+    image: Banner,
+    title: "Verificador de Números Primos",
+    category: "Práticas",
+    link: "https://numeros-primos.vercel.app/",
+    linkGit: "https://github.com/p1nheiros/numeros-primos",
+  },
+  {
+    id: 17,
+    image: Banner,
+    title: "Calculadora com Angular e Ionic",
+    category: "Práticas",
+    link: "https://calculadora-ionic-angular.vercel.app/home",
+    linkGit: "https://github.com/p1nheiros/calculadora-ionic",
+  },
+  {
+    id: 18,
+    image: Banner,
+    title: "Calculadora com Angular e Ionic",
+    category: "Práticas",
+    link: "https://calculadora-ionic-angular.vercel.app/home",
+    linkGit: "https://github.com/p1nheiros/calculadora-ionic",
+  },
+  {
+    id: 19,
+    image: Banner,
+    title: "Calculadora com Angular e Ionic",
+    category: "Práticas",
+    link: "https://trabalhofullstack.vercel.app/",
+    linkGit: "https://github.com/p1nheiros/trabalhofullstack",
   },
   {
     id: 111,

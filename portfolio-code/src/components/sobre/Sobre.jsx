@@ -15,7 +15,7 @@ const Sobre = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              Estudante de Engenharia de Software com paixão pela área de desenvolvimento e estou me capacitando e disposto a novos aprendizados. Possuo um arsenal de habilidades para desenvolver projetos, proporcionar uma experiência única ao usuário e resolver problemas.
+              Estudante de Engenharia de Software e atuando como Dev FullStack com paixão pela área de desenvolvimento, me mantenho atualizado constantemente sobre as tecnologias que utilizo, desenvolvendo features e resolucionando problemas diariamente.
             </p>
             <a href={CV_Lucas_Pinheiro} className="btn" download>Download CV</a>
           </div>
@@ -35,7 +35,7 @@ const Sobre = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills_name">Front-End</h3>
-                <span className="skills__number">52%</span>
+                <span className="skills__number">75%</span>
               </div>
 
               <div className="skills__bar">
@@ -46,7 +46,7 @@ const Sobre = () => {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills_name">Back-End</h3>
-                <span className="skills__number">20%</span>
+                <span className="skills__number">57%</span>
               </div>
 
               <div className="skills__bar">

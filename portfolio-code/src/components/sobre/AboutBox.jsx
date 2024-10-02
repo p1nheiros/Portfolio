@@ -35,7 +35,7 @@ const AboutBox = () => {
                 <i className="about__icon icon-people"></i>
                 <div>
                     <div>
-                        <h3 className="about__title">4+</h3>
+                        <h3 className="about__title">6+</h3>
                         <span className="about__subtitle">Hackathons</span>
                     </div>
                     <span className="services__button" onClick={() => toggleTab(2)}>
@@ -49,7 +49,7 @@ const AboutBox = () => {
                 <i className="about__icon icon-badge"></i>
                 <div>
                     <div>
-                        <h3 className="about__title">5+</h3>
+                        <h3 className="about__title">7+</h3>
                         <span className="about__subtitle">Certificações</span>
                     </div>
                     <span className="services__button" onClick={() => toggleTab(3)}>

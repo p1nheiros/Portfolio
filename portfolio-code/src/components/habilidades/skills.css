@@ -5,6 +5,7 @@
 .skills__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1.875rem;
+    gap: 40px;
 }
 
 .skills__title {

@@ -29,6 +29,14 @@ const ModalContent = ({ onClose }) => (
                         <i className="uil uil-check-circle modal-icon"></i>
                         <p className="modal-info">Hackathon HealthTech - 2023</p>
                     </li>
+                    <li className="modal-service">
+                        <i className="uil uil-check-circle modal-icon"></i>
+                        <p className="modal-info">INtech Experience - 2023</p>
+                    </li>
+                    <li className="modal-service">
+                        <i className="uil uil-check-circle modal-icon"></i>
+                        <p className="modal-info">Desafio Liga Jovem - 2024</p>
+                    </li>
                 </ul>
             </div>
         </div>

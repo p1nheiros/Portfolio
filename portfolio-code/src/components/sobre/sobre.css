@@ -1,5 +1,5 @@
 .about__container {
-    grid-template-columns: 3fr 9fr;
+    grid-template-columns: 3fr 11fr;
     column-gap: 1.875rem;
 }
 
@@ -83,12 +83,12 @@
 }
 
 .ui__design {
-    width: 57%;
+    width: 75%;
     background-color: rgb(255, 76, 96);
 }
 
 .programming {
-    width: 20%;
+    width: 57%;
     background-color: rgb(108, 108, 299);
 }
 
