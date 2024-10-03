@@ -1,12 +1,18 @@
 import Banner from "../../assets/fundo-banner.png";
 import Banner1 from "../../assets/portfolio-pessoal-website-banner.png";
 import Banner2 from "../../assets/horta-solidaria-banner.png"
+import Banner3 from "../../assets/previsao-de-safra-banner.png";
 
 import Banner4 from "../../assets/website-institucional-banner.png"
 
 import Banner11 from "../../assets/buscador-de-cep-banner.png";
 import Banner12 from "../../assets/calculadora-imc-banner.png";
 import Banner13 from "../../assets/formulario-de-registro-banner.png";
+import Banner14 from "../../assets/calculadora-logica-banner.png";
+import Banner15 from "../../assets/conversor-de-tempo-banner.png";
+import Banner16 from "../../assets/verificador-numeros-primos-banner.png";
+import Banner17 from "../../assets/calculadora-angular-ionic-banner.png";
+import Banner18 from "../../assets/trabalhofullstack-banner.png";
 
 import Banner111 from "../../assets/tutorial-php-laravel-api-banner.png";
 import Banner112 from "../../assets/api-postman-banner.png";
@@ -30,7 +36,7 @@ const Menu = [
   },
   {
     id: 3,
-    image: Banner,
+    image: Banner3,
     title: "Previsão de Safras",
     category: "Projetos",
     link: "https://previsao-de-safras.vercel.app",
@@ -70,7 +76,7 @@ const Menu = [
   },
   {
     id: 14,
-    image: Banner,
+    image: Banner14,
     title: "Calculadora Lógica",
     category: "Práticas",
     link: "https://calculadora-logica-web.vercel.app/",
@@ -78,7 +84,7 @@ const Menu = [
   },
   {
     id: 15,
-    image: Banner,
+    image: Banner15,
     title: "Conversor de Tempo",
     category: "Práticas",
     link: "https://programa-de-pratica.vercel.app/",
@@ -86,7 +92,7 @@ const Menu = [
   },
   {
     id: 16,
-    image: Banner,
+    image: Banner16,
     title: "Verificador de Números Primos",
     category: "Práticas",
     link: "https://numeros-primos.vercel.app/",
@@ -94,7 +100,7 @@ const Menu = [
   },
   {
     id: 17,
-    image: Banner,
+    image: Banner17,
     title: "Calculadora com Angular e Ionic",
     category: "Práticas",
     link: "https://calculadora-ionic-angular.vercel.app/home",
@@ -102,16 +108,8 @@ const Menu = [
   },
   {
     id: 18,
-    image: Banner,
-    title: "Calculadora com Angular e Ionic",
-    category: "Práticas",
-    link: "https://calculadora-ionic-angular.vercel.app/home",
-    linkGit: "https://github.com/p1nheiros/calculadora-ionic",
-  },
-  {
-    id: 19,
-    image: Banner,
-    title: "Calculadora com Angular e Ionic",
+    image: Banner18,
+    title: "Trabalho FullStack",
     category: "Práticas",
     link: "https://trabalhofullstack.vercel.app/",
     linkGit: "https://github.com/p1nheiros/trabalhofullstack",
