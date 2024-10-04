@@ -3,9 +3,9 @@ import React from 'react'
 const HeaderSocials = () => {
   return (
     <div className="home__socials">
-        <a href="https://www.instagram.com/p1nheiros/" className="home__social-link" target='_blank' rel="noreferrer">
+        {/* <a href="https://www.instagram.com/p1nheiros/" className="home__social-link" target='_blank' rel="noreferrer">
         <i class="fa-brands fa-instagram"></i>
-        </a>
+        </a> */}
 
         <a href="https://www.youtube.com/@PinheirosDev" className="home__social-link" target='_blank' rel="noreferrer">
         <i class="fa-brands fa-youtube"></i>

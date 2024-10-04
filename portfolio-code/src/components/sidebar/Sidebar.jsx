@@ -31,12 +31,12 @@ const Sidebar = () => {
                 <i class="fa-solid fa-bullseye"></i>
                 </a>
               </li>
-
+{/* 
               <li className="nav__item">
                 <a href="#services" className="nav__link">
                   <i class="fa-solid fa-briefcase"></i>
                 </a>
-              </li>
+              </li> */}
 
               <li className="nav__item">
                 <a href="#portfolio" className="nav__link">
@@ -61,7 +61,7 @@ const Sidebar = () => {
         </nav>
 
         <div className="nav__footer">
-          <span className="copyright">2023 &copy; Lucas Pinheiro</span>
+          <span className="copyright">2024 &copy; Lucas Pinheiro</span>
         </div>
       </aside>
 
