@@ -43,7 +43,7 @@ const Skills = () => {
         </div>
 
         <div className="line grid">
-          <h3 className="skills__title">Frameworks</h3>
+          <h3 className="skills__title">Frameworks & Libraries</h3>
           {Data.map((val, id) => {
             if (val.category === "framework") {
               return (

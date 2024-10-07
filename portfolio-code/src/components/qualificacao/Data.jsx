@@ -28,7 +28,7 @@ const Data = [
     id: 11,
     category: "experience",
     icon: "icon-briefcase",
-    year: "Ago, 2023 - Jul, 2024",
+    year: "Mai, 2024 - Presente",
     title: "Dev FullStack Júnior",
     desc: "Atuo na otimização, criação e manutenção de aplicações, desenvolvendo features e soluções, com SQL complexo e Stimulsoft, em uma plataforma web de contabilidade pública.",
   },
